@@ -1,0 +1,569 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>
+    Portal Berita dan Informasi
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-black">
+  <!-- Header with logos and title -->
+  <header class="w-full border-b border-gray-200">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between py-4 px-4 sm:px-6">
+      <div class="flex items-center space-x-6">
+        <img alt="Logo of UNSSC with green and gold elements" class="h-14 w-auto" height="60"
+          src="Screenshot_24-4-2025_122242_info.syekhnurjati.ac.id.jpeg" width="90" />
+        
+        <div class="flex flex-col leading-tight">
+          <h1 class="text-green-900 font-extrabold text-xl sm:text-2xl md:text-3xl algin-center">
+            PORTAL BERITA DAN INFORMASI
+          </h1>
+          <p class="text-yellow-800 font-semibold text-sm sm:text-base md:text-lg -mt-1">
+            UNIVERSITAS ISLAM NEGERI SIBER SYEKH NURJATI CIREBON
+          </p>
+        </div>
+      </div>
+      <div class="flex space-x-2 mt-4 sm:mt-0">
+       <img alt="Indonesian flag" class="h-4 w-auto" height="16" src="https://storage.googleapis.com/a1aa/image/4d8582b0-4d66-45ac-c04b-b8f4787a7d66.jpg" width="24"/>
+       <img alt="United States flag" class="h-4 w-auto" height="16" src="https://storage.googleapis.com/a1aa/image/9b372f18-46c5-43c8-9694-35ce25a9910d.jpg" width="24"/>
+       <img alt="Saudi Arabia flag" class="h-4 w-auto" height="16" src="https://storage.googleapis.com/a1aa/image/57e17077-2916-457e-3b69-43c9056bb309.jpg" width="24"/>
+       <img alt="Philippines flag" class="h-4 w-auto" height="16" src="https://storage.googleapis.com/a1aa/image/5d812308-e245-4e8a-e454-96e100c2cda7.jpg" width="24"/>
+       <img alt="South Korea flag" class="h-4 w-auto" height="16" src="https://storage.googleapis.com/a1aa/image/dca6b71a-9f4b-4c2b-3c36-a865eb003caf.jpg" width="24"/>
+       <img alt="Japan flag" class="h-4 w-auto" height="16" src="https://storage.googleapis.com/a1aa/image/da070005-f271-4e25-b2b5-53a79b59b0be.jpg" width="24"/>
+       <img alt="China flag" class="h-4 w-auto" height="16" src="https://storage.googleapis.com/a1aa/image/796ae0ce-3ba9-472f-07b4-e23c36a3f17e.jpg" width="24"/>
+      </div>
+    </div>
+  </header>
+  <!-- Navigation bar -->
+  <nav class="bg-green-900 bg-opacity-90 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <ul class="flex flex-wrap items-center space-x-4 text-white text-sm sm:text-base font-semibold py-3">
+        <li>
+          <a class="hover:underline" href="#">
+            Home
+          </a>
+        </li>
+        <li class="relative group">
+          <button aria-expanded="false" aria-haspopup="true"
+            class="flex items-center space-x-1 hover:underline focus:outline-none">
+            <span>
+              Profil
+            </span>
+            <i class="fas fa-chevron-down text-xs">
+            </i>
+          </button>
+          <ul
+            class="absolute left-0 mt-1 w-40 bg-white text-green-900 rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
+            <li>
+              <a class="block px-3 py-2 hover:bg-green-100" href="#">
+                Profil 1
+              </a>
+            </li>
+            <li>
+              <a class="block px-3 py-2 hover:bg-green-100" href="#">
+                Profil 2
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="relative group">
+          <button aria-expanded="false" aria-haspopup="true"
+            class="flex items-center space-x-1 hover:underline focus:outline-none">
+            <span>
+              Biro AUAK
+            </span>
+            <i class="fas fa-chevron-down text-xs">
+            </i>
+          </button>
+          <ul
+            class="absolute left-0 mt-1 w-40 bg-white text-green-900 rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
+            <li>
+              <a class="block px-3 py-2 hover:bg-green-100" href="#">
+                Biro 1
+              </a>
+            </li>
+            <li>
+              <a class="block px-3 py-2 hover:bg-green-100" href="#">
+                Biro 2
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="relative group">
+          <button aria-expanded="false" aria-haspopup="true"
+            class="flex items-center space-x-1 hover:underline focus:outline-none">
+            <span>
+              Lembaga dan UPT
+            </span>
+            <i class="fas fa-chevron-down text-xs">
+            </i>
+          </button>
+          <ul
+            class="absolute left-0 mt-1 w-48 bg-white text-green-900 rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
+            <li>
+              <a class="block px-3 py-2 hover:bg-green-100" href="#">
+                Lembaga 1
+              </a>
+            </li>
+            <li>
+              <a class="block px-3 py-2 hover:bg-green-100" href="#">
+                Lembaga 2
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="relative group">
+          <button aria-expanded="false" aria-haspopup="true"
+            class="flex items-center space-x-1 hover:underline focus:outline-none">
+            <span>
+              Fakultas
+            </span>
+            <i class="fas fa-chevron-down text-xs">
+            </i>
+          </button>
+          <ul
+            class="absolute left-0 mt-1 w-40 bg-white text-green-900 rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
+            <li>
+              <a class="block px-3 py-2 hover:bg-green-100" href="#">
+                Fakultas 1
+              </a>
+            </li>
+            <li>
+              <a class="block px-3 py-2 hover:bg-green-100" href="#">
+                Fakultas 2
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="hover:underline" href="#">
+            Pojok Rektor
+          </a>
+        </li>
+        <li>
+          <a class="hover:underline" href="#">
+            Kolom Pimpinan
+          </a>
+        </li>
+        <li>
+          <a class="hover:underline" href="#">
+            Pendaftaran
+          </a>
+        </li>
+        <li class="ml-auto">
+          <form class="relative">
+            <input
+              class="bg-green-800 bg-opacity-50 text-green-100 placeholder-green-200 rounded px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
+              placeholder="Cari..." type="text" />
+            <button aria-label="Search" class="absolute right-1 top-1.5 text-green-200 hover:text-green-100"
+              type="submit">
+              <i class="fas fa-search">
+              </i>
+            </button>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Main content area -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-6 flex flex-col lg:flex-row gap-6">
+    <!-- Left main article -->
+    <article class="flex-1">
+      <h2 class="text-3xl font-serif font-bold leading-tight mb-2">
+        Biwi Maulani Rayakan Ulang Tahun ke-20 dengan Penuh Kebahagiaan dan Harapan
+      </h2>
+      <div class="flex items-center text-gray-500 text-sm space-x-4 mb-6">
+        <div class="flex items-center space-x-1">
+          <i class="far fa-clock">
+          </i>
+          <span>
+            24 April 2025
+          </span>
+        </div>
+        <div class="flex items-center space-x-1">
+          <i class="far fa-user">
+          </i>
+          <span>
+            anonymous
+          </span>
+        </div>
+        <div class="flex items-center space-x-1">
+          <i class="far fa-folder">
+          </i>
+          <span>
+            Berita, Kegiatan
+          </span>
+        </div>
+        <div class="flex items-center space-x-1">
+          <i class="far fa-comments">
+          </i>
+          <span>
+            0
+          </span>
+        </div>
+      </div>
+      <hr class="border-dotted border-gray-300 mb-6" />
+      <img
+        alt="Group photo of people attending the LPH UIN Siber Syekh Nurjati Cirebon training for halal slaughter of ruminants and poultry, standing in front of a whiteboard with text banner"
+        class="w-full rounded" height="400"
+        src="IMG_20250424_124420.jpg" width="500" />
+      <p>Cirebon, 24 April 2025 — Suasana penuh kebahagiaan menyelimuti perayaan ulang tahun ke-20 Biwi Maulani yang berlangsung hangat dan penuh makna di kediamannya di Bandung, Jawa Barat, pada hari Kamis (24/4). Lahir pada tanggal 24 April 2005, Biwi kini genap menginjak usia dua dekade—sebuah tonggak usia yang menjadi refleksi atas perjalanan hidupnya sekaligus awal dari babak baru. 
+
+      Dalam momen spesial ini, Biwi tidak hanya merayakan hari lahirnya, tetapi juga menggandeng keluarga serta sahabat terdekat untuk berbagi kebersamaan dan rasa syukur. Nuansa pastel dan dekorasi balon berwarna lembut menambah kesan hangat di lokasi perayaan yang sederhana namun berkesan. <br>
+
+      “Ulang tahun ke-20 ini terasa berbeda. Aku merasa lebih dewasa, lebih siap untuk menghadapi masa depan. Terima kasih untuk semua doa dan cinta dari orang-orang terdekat,” ujar Biwi dengan senyum tulus.
+
+      Acara ini diisi dengan doa bersama, sesi refleksi pribadi, serta pemotongan kue ulang tahun yang disambut tepuk tangan meriah dari para tamu. Selain itu, Biwi juga menerima kejutan berupa video kolase ucapan ulang tahun dari sahabat-sahabatnya di berbagai daerah. <br>
+
+      Tak hanya sebagai selebrasi, ulang tahun ini juga menjadi momentum introspeksi bagi Biwi. Ia mengungkapkan keinginannya untuk lebih fokus pada pengembangan diri dan berkontribusi dalam komunitas sosial yang ia geluti selama ini.
+
+      “Semoga di usia 20 ini aku bisa menjadi pribadi yang lebih bermanfaat, tetap rendah hati, dan terus tumbuh dalam kebaikan,” tambahnya.
+
+      Perayaan ini menjadi pengingat bahwa ulang tahun bukan sekadar menambah angka usia, melainkan sebuah kesempatan untuk bersyukur, mempererat relasi, dan menyusun harapan-harapan baru. Biwi Maulani telah menunjukkan bahwa perjalanan menuju kedewasaan bisa dijalani dengan penuh rasa cinta dan keikhlasan. <br>
+
+      Selamat ulang tahun!!</p>
+    </article>
+    <!-- Right sidebar -->
+    <aside class="w-full lg:w-80 space-y-6">
+      <!-- Search box -->
+      <section>
+        <h3 class="bg-blue-600 text-white font-semibold px-3 py-1 text-sm uppercase">
+          PENCARIAN
+        </h3>
+        <div class="bg-gray-100 p-4">
+          <input
+            class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+            placeholder="CARI ..." type="text" />
+        </div>
+      </section>
+      <!-- Berita section -->
+      <section>
+        <h3 class="bg-blue-600 text-white font-semibold px-3 py-1 text-sm uppercase mb-3">
+          BERITA
+        </h3>
+        <div class="space-y-4">
+          <article class="flex space-x-3">
+            <img alt="Small thumbnail image showing group of people at LPH UIN Siber Syekh Nurjati Cirebon training"
+              class="w-20 h-16 object-cover rounded" height="60"
+              src="IMG_20250424_124420.jpg" width="80" />
+            <div class="flex flex-col">
+              <h4 class="font-semibold text-sm leading-tight">
+                Selamat Ulang Tahun Biwi Maulani
+              </h4>
+              <div class="flex items-center text-gray-500 text-xs space-x-3 mt-1">
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-clock">
+                  </i>
+                  <span>
+                    24 April 2025
+                  </span>
+                </div>
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-comments">
+                  </i>
+                  <span>
+                    0
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="flex space-x-3">
+            <img alt="Small thumbnail image showing group of people at BRI event for UIN Siber Syekh Nurjati Cirebon"
+              class="w-20 h-16 object-cover rounded" height="60"
+              src="IMG_20250424_124420.jpg" width="80" />
+            <div class="flex flex-col">
+              <h4 class="font-semibold text-sm leading-tight">
+                Selamat Ulang Tahun Biwi Maulani
+              </h4>
+              <div class="flex items-center text-gray-500 text-xs space-x-3 mt-1">
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-clock">
+                  </i>
+                  <span>
+                    23 April 2025
+                  </span>
+                </div>
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-comments">
+                  </i>
+                  <span>
+                    0
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="flex space-x-3">
+            <img alt="Small thumbnail image showing group of people at LPH UIN Siber Syekh Nurjati Cirebon training"
+              class="w-20 h-16 object-cover rounded" height="60"
+              src="IMG_20250424_124420.jpg" width="80" />
+            <div class="flex flex-col">
+              <h4 class="font-semibold text-sm leading-tight">
+                Selamat Ulang Tahun Biwi Maulani
+              </h4>
+              <div class="flex items-center text-gray-500 text-xs space-x-3 mt-1">
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-clock">
+                  </i>
+                  <span>
+                    24 April 2025
+                  </span>
+                </div>
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-comments">
+                  </i>
+                  <span>
+                    0
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="flex space-x-3">
+            <img alt="Small thumbnail image showing group of people at LPH UIN Siber Syekh Nurjati Cirebon training"
+              class="w-20 h-16 object-cover rounded" height="60"
+              src="IMG_20250424_124420.jpg" width="80" />
+            <div class="flex flex-col">
+              <h4 class="font-semibold text-sm leading-tight">
+                Selamat Ulang Tahun Biwi Maulani
+              </h4>
+              <div class="flex items-center text-gray-500 text-xs space-x-3 mt-1">
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-clock">
+                  </i>
+                  <span>
+                    24 April 2025
+                  </span>
+                </div>
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-comments">
+                  </i>
+                  <span>
+                    0
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="flex space-x-3">
+            <img alt="Small thumbnail image showing group of people at LPH UIN Siber Syekh Nurjati Cirebon training"
+              class="w-20 h-16 object-cover rounded" height="60"
+              src="IMG_20250424_124420.jpg" width="80" />
+            <div class="flex flex-col">
+              <h4 class="font-semibold text-sm leading-tight">
+                Selamat Ulang Tahun Biwi Maulani
+              </h4>
+              <div class="flex items-center text-gray-500 text-xs space-x-3 mt-1">
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-clock">
+                  </i>
+                  <span>
+                    24 April 2025
+                  </span>
+                </div>
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-comments">
+                  </i>
+                  <span>
+                    0
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="flex space-x-3">
+            <img alt="Small thumbnail image showing group of people at LPH UIN Siber Syekh Nurjati Cirebon training"
+              class="w-20 h-16 object-cover rounded" height="60"
+              src="IMG_20250424_124420.jpg" width="80" />
+            <div class="flex flex-col">
+              <h4 class="font-semibold text-sm leading-tight">
+                Selamat Ulang Tahun Biwi Maulani
+              </h4>
+              <div class="flex items-center text-gray-500 text-xs space-x-3 mt-1">
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-clock">
+                  </i>
+                  <span>
+                    24 April 2025
+                  </span>
+                </div>
+                <div class="flex items-center space-x-1">
+                  <i class="far fa-comments">
+                  </i>
+                  <span>
+                    0
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </aside>
+  </main>
+</body>
+  <footer class="pt-10 pb-2 px-4 md:px-10 lg:px-20 text-white max-w-screen-xl mx-auto bg-[#042a13]">
+     <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-8 md:gap-0">
+      <div class="flex flex-col items-center md:items-start md:w-1/4 space-y-4">
+       <img alt="Logo of UIN SSC Universitas Islam Negeri Siber Syekh Nurjati Cirebon, white on dark green background" class="w-28" height="120" src="Screenshot_24-4-2025_124241_info.syekhnurjati.ac.id.jpeg" width="120"/>
+       <p class="text-xs leading-relaxed text-left max-w-[280px]">
+        Jl. Perjuangan By Pass Sunyaragi
+        <br/>
+        Kota Cirebon 45132 Telepon: 0231-481264 Fax: 0231-489926 Email:
+            info@uinssc.ac.id Website: https://uinssc.ac.id
+       </p>
+       <div class="flex space-x-4 text-white text-lg">
+        <a aria-label="Facebook" class="hover:text-gray-300" href="#">
+         <i class="fab fa-facebook-f">
+         </i>
+        </a>
+        <a aria-label="Instagram" class="hover:text-gray-300" href="#">
+         <i class="fab fa-instagram">
+         </i>
+        </a>
+        <a aria-label="YouTube" class="hover:text-gray-300" href="#">
+         <i class="fab fa-youtube">
+         </i>
+        </a>
+       </div>
+      </div>
+      <div class="md:w-1/4 flex justify-center md:justify-end">
+       <img alt="Google map embed showing Universitas Islam Negeri Siber Syekh Nurjati location" class="rounded-md border border-green-400" height="120" src="https://storage.googleapis.com/a1aa/image/10746fd7-d910-4875-b252-539a5a1f80e7.jpg" width="200"/>
+      </div>
+     </div>
+     <div class="mt-8 border-t border-green-700 pt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-4 gap-x-6 text-sm max-w-screen-xl mx-auto">
+      <div>
+       <h3 class="text-yellow-600 font-bold mb-1">
+        LOGIN
+       </h3>
+       <ul class="space-y-1">
+        <li>
+         Daftar Email
+        </li>
+        <li>
+         Mahasiswa
+        </li>
+        <li>
+         Email Staf / Dosen
+        </li>
+        <li>
+         Mahasiswa / Alumni
+        </li>
+        <li>
+         BKD Online
+        </li>
+       </ul>
+      </div>
+      <div>
+       <h3 class="text-yellow-600 font-bold mb-1">
+        FAKULTAS
+       </h3>
+       <ul class="space-y-1">
+        <li>
+         Ilmu Tarbiyah dan Keguruan
+        </li>
+        <li>
+         Syari’ah dan Ekonomi Islam
+        </li>
+        <li>
+         Ushuluddin Adab dan Dakwah
+        </li>
+        <li>
+         Pascasarjana
+        </li>
+       </ul>
+      </div>
+      <div>
+       <h3 class="text-yellow-600 font-bold mb-1">
+        LEMBAGA DAN UPT
+       </h3>
+       <ul class="space-y-1">
+        <li>
+         Lembaga Penjaminan Mutu (LPM) Lembaga Penelitian dan Pengabdian kepada Masyarakat (LPPM)
+        </li>
+        <li>
+         Pusat Pengembangan Bahasa (PPB)
+        </li>
+        <li>
+         Pusat Teknologi Informasi dan Pangkalan Data (PTIPD)
+        </li>
+        <li>
+         Perpustakaan
+        </li>
+        <li>
+         Ma’had Al Jami’ah
+        </li>
+        <li>
+         Satuan Pengawas Internal (SPI)
+        </li>
+       </ul>
+      </div>
+      <div>
+       <h3 class="text-yellow-600 font-bold mb-1">
+        PUSTAKA
+       </h3>
+       <ul class="space-y-1">
+        <li>
+         Perpustakaan
+        </li>
+        <li>
+         Repository
+        </li>
+        <li>
+         Kampung Jurnal
+        </li>
+        <li>
+         Google Scholar
+        </li>
+       </ul>
+      </div>
+      <div>
+       <h3 class="text-yellow-600 font-bold mb-1">
+        PENDAFTARAN
+       </h3>
+       <ul class="space-y-1">
+        <li>
+         Jalur Mandiri SPMB – S1 Jalur Mandiri SPMB – S2 / S3 Jalur
+        </li>
+        <li>
+         SPAN – PTKIN Jalur UM – PTKIN
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="mt-4 border-t border-green-700 pt-2 text-xs text-white flex flex-col sm:flex-row justify-between items-center max-w-screen-xl mx-auto">
+      <p class="mb-1 sm:mb-0">
+       Developed by
+       <strong>
+        PUSTIKOM
+       </strong>
+       – Published by
+       <strong>
+        Humas dan Publikasi
+       </strong>
+       |
+          © 2025 –
+       <strong>
+        UIN Siber Syekh Nurjati Cirebon
+       </strong>
+      </p>
+      <p class="font-gv text-yellow-600 italic text-sm">
+       Inspiring for Excellences
+      </p>
+     </div>
+    </footer>
+   </body>
+
+</html>
